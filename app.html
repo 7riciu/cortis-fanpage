@@ -10,38 +10,82 @@
     <div class="topbar">
         <h1 class="topbar-text">CORTIS</h1>
     </div>
+
     <div>
         <table style="width: 100%;">
             <tr>
-                <td style="text-align: center;">
-                    <a href="discography.html"><h1>Discography</h1></a>
+                <td>
+                    <a href="discography.html" class="text"><h1>Discography</h1></a>
                 </td>
-                <td style="text-align: center;">
-                    <a href="members.html"><h1>Members</h1></a>
+                <td>
+                    <a href="members.html" class="text"><h1>Members</h1></a>
                 </td>
-                <td style="text-align: center;">
-                    <a><h1>Merch</h1></a>
+                <td>
+                    <a class="text"><h1>Merch</h1></a>
                 </td>
-                <td style="text-align: center;">
-                    <a><h1>Minigames</h1></a>
+                <td>
+                    <a class="text"><h1>Minigames</h1></a>
                 </td>
             </tr>
             <tr>
                 <td style="text-align: center;"> 
-                    <img src="images/cortis music disc.png" alt="Discography image" style="width: 200px;">
+                    <img id="discography-image" src="images/music.png" alt="Discography image" style="width: 200px;">
                 </td>
                 <td style="text-align: center;">
-                    <img src="images/cortis members.png" alt="Members image" style="width: 200px;">
+                    <img id="members-image" src="images/members.png" alt="Members image" style="width: 210px;">
                 </td>
                 <td style="text-align: center;">
-                    <img src="images/merch.png" alt="Gallery image" style="width: 200px;">
+                    <img id="merch-image" src="images/merch.png" alt="Merch image" style="width: 230px;">
                 </td>
                 <td style="text-align: center;">
-                    <img src="images/console.png" alt="Minigames image" style="width: 200px;">
+                    <img id="minigame-image" src="images/console.png" alt="Minigames image" style="width: 200px;">
                 </td>
             </tr>
         </table>
     </div>
+
+    <script>
+        var discographyImage = document.getElementById('discography-image');
+
+        discographyImage.addEventListener("mouseenter", () => {
+            discographyImage.src = "images/holder.png";
+        })
+
+        discographyImage.addEventListener("mouseleave", () => {
+            discographyImage.src = "images/music.png";
+        })
+
+        var membersImage = document.getElementById('members-image');
+
+        membersImage.addEventListener("mouseenter", () => {
+            membersImage.src = "images/holder.png";
+        })
+
+        membersImage.addEventListener("mouseleave", () => {
+            membersImage.src = "images/members.png";
+        })
+
+        var merchImage = document.getElementById('merch-image');
+
+        merchImage.addEventListener("mouseenter", () => {
+            merchImage.src = "images/holder.png";
+        })
+
+        merchImage.addEventListener("mouseleave", () => {
+            merchImage.src = "images/merch.png";
+        })
+
+        var minigameImage = document.getElementById('minigame-image');
+
+        minigameImage.addEventListener("mouseenter", () => {
+            minigameImage.src = "images/holder.png";
+        })
+
+        minigameImage.addEventListener("mouseleave", () => {
+            minigameImage.src = "images/members.png";
+        })
+    </script>
+
     <div style="text-align: center;">
         <p>This is cortis</p>
     </div>
