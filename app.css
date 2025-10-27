@@ -48,9 +48,15 @@ body {
     vertical-align: top;
 }
 
-.start-info {
+.start-info1 {
     padding-left: 500px;
     padding-right: 500px;
     padding-top: 50px;
+    text-align: center;
+}
+
+.start-info2 {
+    padding-left: 500px;
+    padding-right: 500px;
     text-align: center;
 }
