@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app.css">
+    <script src="app.js"></script>
     <title>Cortis</title>
 </head>
 <body>
@@ -15,16 +16,16 @@
         <table style="width: 100%;">
             <tr>
                 <td>
-                    <a href="discography.html" class="text"><h1>Discography</h1></a>
+                    <a href="discography.html" class="text"><h1 id="discography-text">Discography</h1></a>
                 </td>
                 <td>
-                    <a href="members.html" class="text"><h1>Members</h1></a>
+                    <a href="members.html" class="text"><h1 id="members-text">Members</h1></a>
                 </td>
                 <td>
-                    <a class="text"><h1>Merch</h1></a>
+                    <a href="merch.html" class="text"><h1 id="merch-text">Merch</h1></a>
                 </td>
                 <td>
-                    <a class="text"><h1>Minigames</h1></a>
+                    <a href="minigames.html" class="text"><h1 id="minigames-text">Minigames</h1></a>
                 </td>
             </tr>
             <tr>
@@ -43,48 +44,6 @@
             </tr>
         </table>
     </div>
-
-    <script>
-        var discographyImage = document.getElementById('discography-image');
-
-        discographyImage.addEventListener("mouseenter", () => {
-            discographyImage.src = "images/holder.png";
-        })
-
-        discographyImage.addEventListener("mouseleave", () => {
-            discographyImage.src = "images/music.png";
-        })
-
-        var membersImage = document.getElementById('members-image');
-
-        membersImage.addEventListener("mouseenter", () => {
-            membersImage.src = "images/holder.png";
-        })
-
-        membersImage.addEventListener("mouseleave", () => {
-            membersImage.src = "images/members.png";
-        })
-
-        var merchImage = document.getElementById('merch-image');
-
-        merchImage.addEventListener("mouseenter", () => {
-            merchImage.src = "images/holder.png";
-        })
-
-        merchImage.addEventListener("mouseleave", () => {
-            merchImage.src = "images/merch.png";
-        })
-
-        var minigameImage = document.getElementById('minigame-image');
-
-        minigameImage.addEventListener("mouseenter", () => {
-            minigameImage.src = "images/holder.png";
-        })
-
-        minigameImage.addEventListener("mouseleave", () => {
-            minigameImage.src = "images/members.png";
-        })
-    </script>
 
     <div style="text-align: center;">
         <p>This is cortis</p>
