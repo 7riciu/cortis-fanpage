@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    var discographyImage = document.getElementById('discography-image');
+    var discographyImage = document.getElementById("discography-image");
     discographyImage.addEventListener("mouseenter", () => {
         discographyImage.src = "images/music-hover.png";
     });
@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
         discographyImage.src = "images/music.png";
     });
 
-    var membersImage = document.getElementById('members-image');
+    var membersImage = document.getElementById("members-image");
     membersImage.addEventListener("mouseenter", () => {
         membersImage.src = "images/members-hover.png";
     });
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
         membersImage.src = "images/members.png";
     });
 
-    var merchImage = document.getElementById('merch-image');
+    var merchImage = document.getElementById("merch-image");
     merchImage.addEventListener("mouseenter", () => {
         merchImage.src = "images/merch-hover.png";
     });
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
         merchImage.src = "images/merch.png";
     });
 
-    var minigameImage = document.getElementById('minigame-image');
+    var minigameImage = document.getElementById("minigame-image");
     minigameImage.addEventListener("mouseenter", () => {
         minigameImage.src = "images/console-hover.png";
     });
