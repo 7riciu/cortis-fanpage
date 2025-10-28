@@ -18,23 +18,39 @@ body {
 }
 
 .table-image-column {
+    height: 100%;
     width: 100%;
-    display: inline-grid;
-    align-items: center;
-    justify-items: center;
+    display: grid;
     position: relative;
     overflow: hidden;
-    padding-top: 55px;
+    place-items: center;
+}
+
+.table-description {
+    width: 55%;
+    height: 100%;
+    text-align: left;
+    vertical-align: middle;
 }
 
 .slide {
     grid-area: 1 / 1;
-    width: 230px;
     height: auto;
-    object-fit: contain;
     opacity: 0;
 }
 
 .active {
     opacity: 1;
+}
+
+.prev {
+    width: 5%;
+    height: 100%;
+    text-align: right;
+}
+
+.next {
+    width: 5%;
+    height: 100%;
+    text-align: left;
 }
