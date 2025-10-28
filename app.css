@@ -39,6 +39,7 @@ body {
 }
 
 .table-column {
+    width: 25%;
     text-align: center;
     vertical-align: bottom;
 }
