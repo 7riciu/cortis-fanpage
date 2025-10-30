@@ -10,9 +10,10 @@ body {
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
-    width: 90vw;
+    gap: 2vw;
+    width: 80vw;
     align-self: center;
+    margin: 0 auto;
 }
 
 .cell {
@@ -22,4 +23,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.cell-image-row {
+    height: 100%;
+    width: 90%;
+    display: grid;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    grid-area: 1 / 1;
+    height: auto;
+    opacity: 1;
+}
+
+.active {
+    opacity: 1;
 }
