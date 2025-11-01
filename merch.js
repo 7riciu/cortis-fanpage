@@ -1,33 +1,33 @@
 document.addEventListener("DOMContentLoaded", () => {
-    var discographyImage = document.getElementById("discography-image");
-    discographyImage.addEventListener("mouseenter", () => {
-        discographyImage.src = "images/music-hover.png";
+    var album1 = document.getElementById("album1");
+    album1.addEventListener("mouseenter", () => {
+        album1.src = "images/album-1.png";
     });
-    discographyImage.addEventListener("mouseleave", () => {
-        discographyImage.src = "images/music.png";
-    });
-
-    var membersImage = document.getElementById("members-image");
-    membersImage.addEventListener("mouseenter", () => {
-        membersImage.src = "images/members-hover.png";
-    });
-    membersImage.addEventListener("mouseleave", () => {
-        membersImage.src = "images/members.png";
+    album1.addEventListener("mouseleave", () => {
+        album1.src = "images/album-cover-1.png";
     });
 
-    var merchImage = document.getElementById("merch-image");
-    merchImage.addEventListener("mouseenter", () => {
-        merchImage.src = "images/merch-hover.png";
+    var album2 = document.getElementById("album2");
+    album2.addEventListener("mouseenter", () => {
+        album2.src = "images/album-2.png";
     });
-    merchImage.addEventListener("mouseleave", () => {
-        merchImage.src = "images/merch.png";
+    album2.addEventListener("mouseleave", () => {
+        album2.src = "images/album-cover-2.png";
     });
 
-    var minigameImage = document.getElementById("minigame-image");
-    minigameImage.addEventListener("mouseenter", () => {
-        minigameImage.src = "images/console-hover.png";
+    var album3 = document.getElementById("album3");
+    album3.addEventListener("mouseenter", () => {
+        album3.src = "images/album-3.png";
     });
-    minigameImage.addEventListener("mouseleave", () => {
-        minigameImage.src = "images/console.png";
+    album3.addEventListener("mouseleave", () => {
+        album3.src = "images/album-cover-3.png";
+    });
+
+    var cortisball = document.getElementById("cortisball");
+    cortisball.addEventListener("mouseenter", () => {
+        cortisball.src = "images/cortis-ball-2.png";
+    });
+    cortisball.addEventListener("mouseleave", () => {
+        cortisball.src = "images/cortis-ball-1.png";
     });
 });
