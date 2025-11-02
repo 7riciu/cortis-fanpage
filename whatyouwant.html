@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="song.css">
+    <script src="song.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div>
+        <button onclick="translateToKorean()">korean</button>
+        <button onclick="translateToRomanized()">romanized</button>
+        <button onclick="translateToEnglish()">english</button>
+    </div>
+
+    <div id="lyrics">
         <h2>
             What You Want
         </h2>
@@ -64,6 +71,234 @@
             들이켜, yuh, 마치 하마 (하마)<br>
             Smelling like a teen, 마치 Nirvana (Nirvana)<br>
             소리쳐, yuh, 'cause we wanna<br>
+        </p>
+        <p>
+            That's what we're all looking for<br>
+            That's what we're all looking for<br>
+        </p>
+        <p>
+            da-ra, da-ra-ra<br>
+            (That's, that's, that's, that's what we're all-)<br>
+            That's what we're all looking (one, two, three) for<br>
+            What you want?<br>
+        </p>
+        <p>
+            What you want?<br>
+            What you want?<br>
+            What you want?<br>
+            What you want?<br>
+        </p>
+    </div>
+
+    <div id="korean">
+        <h2>
+            What You Want
+        </h2>
+        <p>
+            Crash, smash, rock, mash up<br>
+            Ooh, take what you want<br>
+            돈, 멋, 명예, love and what?<br>
+            Ooh, take what you want<br>
+        </p>
+        <p>
+            Life's too fast, 뭘 더 참아 이젠 됐어? (What you want?)<br>
+            I want to see the whole world, 도장 찍어 나의 passport (what you want?)<br>
+            Well, 이마에 피도 안 말랐을 때 계획한 행보 (what you want?)<br>
+            바라던 걸 찾아 집을 떠나, what we came for<br>
+        </p>
+        <p>
+            Crash, smash, rock, mash up<br>
+            Ooh, take what you want<br>
+            돈, 멋, 명예, love and what?<br>
+            Ooh, take what you want<br>
+        </p>
+        <p>
+            적당히론 배가 차지 않아 (않아)<br>
+            들이켜, yuh, 마치 하마 (하마)<br>
+            Smelling like a teen, 마치 Nirvana (Nirvana)<br>
+            소리쳐, yuh, 'cause we wanna<br>
+        </p>
+        <p>
+            That's what we're all looking for<br>
+            That's what we're all looking for<br>
+            That's what we're all looking for<br>
+            That's what we're all looking (one, two, three) for<br>
+        </p>
+        <p>
+            난 걍 돌아갈 바엔 바로 넘어버려 담장 (what you want?)<br>
+            난 원해 다시 뛰게 할 무언갈 나의 심장 (what you want?)<br>
+            야밤 새벽 배송 같은 fresh song, I need that (what you want?)<br>
+            I want the whole world to (wake up) and realize<br>
+        </p>
+        <p>
+            Some people want (this), some people want (that)<br>
+            나도 똑같아 17년 평(생)<br>
+            쫓았었던 love, 쫓았었던 fame<br>
+            So, now, I want the whole world to know my name<br>
+        </p>
+        <p>
+            Crash, smash, rock, mash up<br>
+            Ooh, take what you want<br>
+            돈, 멋, 명예, love and what?<br>
+            Ooh, take what you want<br>
+        </p>
+        <p>
+            적당히론 배가 차지 않아 (않아)<br>
+            들이켜, yuh, 마치 하마 (하마)<br>
+            Smelling like a teen, 마치 Nirvana (Nirvana)<br>
+            소리쳐, yuh, 'cause we wanna<br>
+        </p>
+        <p>
+            That's what we're all looking for<br>
+            That's what we're all looking for<br>
+        </p>
+        <p>
+            da-ra, da-ra-ra<br>
+            (That's, that's, that's, that's what we're all-)<br>
+            That's what we're all looking (one, two, three) for<br>
+            What you want?<br>
+        </p>
+        <p>
+            What you want?<br>
+            What you want?<br>
+            What you want?<br>
+            What you want?<br>
+        </p>
+    </div>
+
+    <div id="romanized" style="display: none;">
+        <h2>
+            What You Want
+        </h2>
+        <p>
+            Crash, smash, rock, mash up<br>
+            Ooh, take what you want<br>
+            Don, meot, myeongye, love and what?<br>
+            Ooh, take what you want<br>
+        </p>
+        <p>
+            Life's too fast, mwol deo chama, ijen dwaesseo (What you want?)<br>
+            I want to see the whole world, dojang jjigeo, naui passport (What you want?)<br>
+            Well, imae pido an mallasseul ttae gyehoekan haengbo (What you want?)<br>
+            Baradeon geol chaja jibeul tteona what we came for<br>
+        </p>
+        <p>
+            Crash, smash, rock, mash up<br>
+            Ooh, take what you want<br>
+            Don, meot, myeongye, love and what?<br>
+            Ooh, take what you want<br>
+        </p>
+        <p>
+            Jeokdanghiron baega chaji ana (ana)<br>
+            Deurikyeo, yuh, machi hama (hama)<br>
+            Smelling like a teen, machi Nirvana (Nirvana)<br>
+            Sorichyeo, yuh, 'cause we wanna<br>
+        </p>
+        <p>
+            That's what we're all looking for<br>
+            That's what we're all looking for<br>
+            That's what we're all looking for<br>
+            That's what we're all looking (one, two, three) for<br>
+        </p>
+        <p>
+            Nan gyang doragal baen baro neomeobeoryeo damjang (What you want?)<br>
+            Nan wonhae dasi ttwige hal mueongal, naui simjang (What you want?)<br>
+            Yabam, saebyeok baesong gateun fresh song, I need that (What you want?)<br>
+            I want the whole world to wake up and realize<br>
+        </p>
+        <p>
+            Some people want this, some people want that<br>
+            Nado ttokgata sipchilnyeon pyeongsaeng<br>
+            Jjochasseotdeon love, jjochasseotdeon fame<br>
+            So now, I want the whole world to know my name<br>
+        </p>
+        <p>
+            Crash, smash, rock, mash up<br>
+            Ooh, take what you want<br>
+            Don, meot, myeongye, love and what?<br>
+            Ooh, take what you want<br>
+        </p>
+        <p>
+            Jeokdanghiron baega chaji ana (ana)<br>
+            Deurikyeo, yuh, machi hama (hama)<br>
+            Smelling like a teen, machi Nirvana (Nirvana)<br>
+            Sorichyeo, yuh, 'cause we wanna<br>
+        </p>
+        <p>
+            That's what we're all looking for<br>
+            That's what we're all looking for<br>
+        </p>
+        <p>
+            da-ra, da-ra-ra<br>
+            (That's, that's, that's, that's what we're all-)<br>
+            That's what we're all looking (one, two, three) for<br>
+            What you want?<br>
+        </p>
+        <p>
+            What you want?<br>
+            What you want?<br>
+            What you want?<br>
+            What you want?<br>
+        </p>
+    </div>
+
+    <div id="english" style="display: none;">
+        <h2>
+            What You Want
+        </h2>
+        <p>
+            Crash, smash, rock, mash up<br>
+            Ooh, take what you want<br>
+            Money, style, fame, love and what?<br>
+            Ooh, take what you want<br>
+        </p>
+        <p>
+            Life's too fast, why hold back, that's enough (What you want?)<br>
+            I want to see the whole world, put some stamps on my passport (What you want?)<br>
+            Well, it's what I planned back when I was young and naive (What you want?)<br>
+            Left home to look for what we dreamed of, what we came for<br>
+        </p>
+        <p>
+            Crash, smash, rock, mash up<br>
+            Ooh, take what you want<br>
+            Money, style, fame, love and what?<br>
+            Ooh, take what you want<br>
+        </p>
+        <p>
+            Enough's not enough to fill me up (Not enough)<br>
+            Scarf it down, yuh, like a hippo (Hippo)<br>
+            Smelling like a teen like we Nirvana (Nirvana)<br>
+            Scream it loud, yuh, 'cause we wanna<br>
+        </p>
+        <p>
+            That's what we're all looking for<br>
+            That's what we're all looking for<br>
+            That's what we're all looking for<br>
+            That's what we're all looking (one, two, three) for<br>
+        </p>
+        <p>
+            I don't wanna turn back around, I'd rather hop the wall now (What you want?)<br>
+            What I want is somеthing to make it race again, I mean my heart (What you want?)<br>
+            A late-night, dawn delivery kind of fresh song, I need that (What you want?)<br>
+            I want the whole world to wake up and realize
+        </p>
+        <p>
+            Some people want this, some people want that<br>
+            Same here, all seventeen years of my life<br>
+            Chased after love, chased after fame<br>
+            So now I want the whole world to know my name<br>
+        </p>
+        <p>
+            Crash, smash, rock, mash up<br>
+            Ooh, take what you want<br>
+            Money, style, fame, love and what?<br>
+            Ooh, take what you want<br>
+        </p>
+        <p>
+            Enough's not enough to fill me up (Not enough)<br>
+            Scarf it down, yuh, like a hippo (Hippo)<br>
+            Smelling like a teen like we Nirvana (Nirvana)<br>
+            Scream it loud, yuh, 'cause we wanna<br>
         </p>
         <p>
             That's what we're all looking for<br>

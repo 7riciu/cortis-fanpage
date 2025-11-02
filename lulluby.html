@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=>, initial-scale=1.0">
     <link rel="stylesheet" href="song.css">
+    <script src="song.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div>
+        <button onclick="translateToKorean()">korean</button>
+        <button onclick="translateToRomanized()">romanized</button>
+        <button onclick="translateToEnglish()">english</button>
+    </div>
+
+    <div id="lyrics">
         <h2>
             Lulluby
         </h2>
@@ -38,6 +45,159 @@
             지나갔던 마음들을 세며<br>
             남은 친구들과 10대를 뎁혀<br>
             친구들은 내 편<br>
+        </p>
+        <p>
+            Ooh, ooh<br>
+            Ooh, it's a lullaby, it's a lullaby<br>
+        </p>
+        <p>
+            I got work<br>
+            You got work<br>
+            But in this moment<br>
+            Quiet first<br>
+            I got work<br>
+            You got work<br>
+            But in this moment<br>
+            Quiet first<br>
+        </p>
+        <p>
+            It's a lullaby, it's a lullaby<br>
+        </p>
+    </div>
+
+    <div id="korean" style="display: none;">
+        <h2>
+            Lulluby
+        </h2>
+        <p>
+            Ooh, ooh<br>
+            Ooh, ooh<br>
+            Ooh, ooh<br>
+            I got work (ooh)<br>
+        </p>
+        <p>
+            이미 추운데 a/c를 왜 켜? (whoa, oh)<br>
+            빨개진 나의 눈과 시린 새벽 (ooh)<br>
+            쓰러지지 않고 공을 세워<br>
+            늘어가는 공의 숫자로 날 채워<br>
+            잠을 자라는 말은 안 내켜<br>
+            그래도 날 재워<br>
+        </p>
+        <p>
+            Ooh, ooh<br>
+            Ooh, it's a lullaby, it's a lullaby<br>
+        </p>
+        <p>
+            지하에서 흘려보낸 계절<br>
+            밤을 새워 시간들을 대여<br>
+            방 한켠에 버린 나의 crayon<br>
+            잠도 부족한데 꿈을 왜 꿔?<br>
+            어차피 다 지나가는 세월<br>
+            지나갔던 마음들을 세며<br>
+            남은 친구들과 10대를 뎁혀<br>
+            친구들은 내 편<br>
+        </p>
+        <p>
+            Ooh, ooh<br>
+            Ooh, it's a lullaby, it's a lullaby<br>
+        </p>
+        <p>
+            I got work<br>
+            You got work<br>
+            But in this moment<br>
+            Quiet first<br>
+            I got work<br>
+            You got work<br>
+            But in this moment<br>
+            Quiet first<br>
+        </p>
+        <p>
+            It's a lullaby, it's a lullaby<br>
+        </p>
+    </div>
+
+    <div id="romanized" style="display: none;">
+        <h2>
+            Lulluby
+        </h2>
+        <p>
+            Ooh, ooh<br>
+            Ooh, ooh<br>
+            Ooh, ooh<br>
+            I got work (ooh)<br>
+        </p>
+        <p>
+            Imi chuunde, A/Creul wae kyeo? (Woah, oh)<br>
+            Ppalgaejin naui nungwa sirin saebyeok (*Ooh*)<br>
+            Sseureojiji anko gongeul sewo<br>
+            Neureoganeun gongui sutjaro nal chaewo<br>
+            Jameul jaraneun mareun an naekyeo<br>
+            Geuraedo nal jaewo<br>
+        </p>
+        <p>
+            Ooh, ooh<br>
+            Ooh, it's a lullaby, it's a lullaby<br>
+        </p>
+        <p>
+            Jihaeseo heullyeobonaen gyejeol<br>
+            Bameul saewo sigandeureul daeyeo<br>
+            Bang hankyeone beorin naui crayon<br>
+            Jamdo bujokande kkumeul wae kkwo?<br>
+            Eochapi da jinaganeun sewol<br>
+            Jinagatdeon maeumdeureul semyeo<br>
+            Nameun chingudeulgwa sipdaereul depyeo<br>
+            Chingudeureun nae pyeon<br>
+        </p>
+        <p>
+            Ooh, ooh<br>
+            Ooh, it's a lullaby, it's a lullaby<br>
+        </p>
+        <p>
+            I got work<br>
+            You got work<br>
+            But in this moment<br>
+            Quiet first<br>
+            I got work<br>
+            You got work<br>
+            But in this moment<br>
+            Quiet first<br>
+        </p>
+        <p>
+            It's a lullaby, it's a lullaby<br>
+        </p>
+    </div>
+
+    <div id="english" style="display: none;">
+        <h2>
+            Lulluby
+        </h2>
+        <p>
+            Ooh, ooh<br>
+            Ooh, ooh<br>
+            Ooh, ooh<br>
+            I got work (ooh)<br>
+        </p>
+        <p>
+            It's already cold, so why turn on the A/C? (Woah, oh)<br>
+            My eyes are red and dawn feels icy (*Ooh*)<br>
+            I don't collapse, I achieve something<br>
+            Filling myself with the growing string of zeroes<br>
+            I don't feel like listening when they tell me to sleep<br>
+            But still, lull me to rest<br>
+        </p>
+        <p>
+            Ooh, ooh<br>
+            Ooh, it's a lullaby, it's a lullaby<br>
+        </p>
+        <p>
+            Seasons slipped away underground<br>
+            I stayed up all night, renting out my hours<br>
+            My crayon tossed in the corner of the room<br>
+            If I don't even have enough sleep, why dream at all?<br>
+            Time passes anyway, as it always does<br>
+            I count the feelings that have already gone<br>
+            Warming up my teenage years with the friends still left<br>
+            And my friends are on my side<br>
         </p>
         <p>
             Ooh, ooh<br>
