@@ -15,4 +15,22 @@ document.addEventListener("DOMContentLoaded", () => {
     window.translateToEnglish = () => {
         lyricsArea.innerHTML = englishLyrics;
     };
+
+    const audio = document.getElementById("audio");
+    const playButton = document.getElementById("playButton");
+
+    function playSong() {
+        audio.play();
+        playButton.textContent = "Pause";
+    }
+
+    function pauseSong() {
+        audio.pause();
+        playButton.textContent = "Play";
+    }
+
+    playButton.addEventListener("click", () => {
+        if (audio.paused) playSong();
+        else pauseSong();
+    })
 });
