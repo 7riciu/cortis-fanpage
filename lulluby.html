@@ -8,62 +8,75 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <button onclick="translateToKorean()">korean</button>
-        <button onclick="translateToRomanized()">romanized</button>
-        <button onclick="translateToEnglish()">english</button>
-    </div>
+    <table style="width: 100vw;">
+        <tr>
+            <td style="width: 50%;">
+                <div>
+                    <button onclick="translateToKorean()">korean</button>
+                    <button onclick="translateToRomanized()">romanized</button>
+                    <button onclick="translateToEnglish()">english</button>
+                </div>
 
-    <div id="lyrics">
-        <h2>
-            Lulluby
-        </h2>
-        <p>
-            Ooh, ooh<br>
-            Ooh, ooh<br>
-            Ooh, ooh<br>
-            I got work (ooh)<br>
-        </p>
-        <p>
-            이미 추운데 a/c를 왜 켜? (whoa, oh)<br>
-            빨개진 나의 눈과 시린 새벽 (ooh)<br>
-            쓰러지지 않고 공을 세워<br>
-            늘어가는 공의 숫자로 날 채워<br>
-            잠을 자라는 말은 안 내켜<br>
-            그래도 날 재워<br>
-        </p>
-        <p>
-            Ooh, ooh<br>
-            Ooh, it's a lullaby, it's a lullaby<br>
-        </p>
-        <p>
-            지하에서 흘려보낸 계절<br>
-            밤을 새워 시간들을 대여<br>
-            방 한켠에 버린 나의 crayon<br>
-            잠도 부족한데 꿈을 왜 꿔?<br>
-            어차피 다 지나가는 세월<br>
-            지나갔던 마음들을 세며<br>
-            남은 친구들과 10대를 뎁혀<br>
-            친구들은 내 편<br>
-        </p>
-        <p>
-            Ooh, ooh<br>
-            Ooh, it's a lullaby, it's a lullaby<br>
-        </p>
-        <p>
-            I got work<br>
-            You got work<br>
-            But in this moment<br>
-            Quiet first<br>
-            I got work<br>
-            You got work<br>
-            But in this moment<br>
-            Quiet first<br>
-        </p>
-        <p>
-            It's a lullaby, it's a lullaby<br>
-        </p>
-    </div>
+                <div id="lyrics">
+                    <h2>
+                        Lulluby
+                    </h2>
+                    <p>
+                        Ooh, ooh<br>
+                        Ooh, ooh<br>
+                        Ooh, ooh<br>
+                        I got work (ooh)<br>
+                    </p>
+                    <p>
+                        이미 추운데 a/c를 왜 켜? (whoa, oh)<br>
+                        빨개진 나의 눈과 시린 새벽 (ooh)<br>
+                        쓰러지지 않고 공을 세워<br>
+                        늘어가는 공의 숫자로 날 채워<br>
+                        잠을 자라는 말은 안 내켜<br>
+                        그래도 날 재워<br>
+                    </p>
+                    <p>
+                        Ooh, ooh<br>
+                        Ooh, it's a lullaby, it's a lullaby<br>
+                    </p>
+                    <p>
+                        지하에서 흘려보낸 계절<br>
+                        밤을 새워 시간들을 대여<br>
+                        방 한켠에 버린 나의 crayon<br>
+                        잠도 부족한데 꿈을 왜 꿔?<br>
+                        어차피 다 지나가는 세월<br>
+                        지나갔던 마음들을 세며<br>
+                        남은 친구들과 10대를 뎁혀<br>
+                        친구들은 내 편<br>
+                    </p>
+                    <p>
+                        Ooh, ooh<br>
+                        Ooh, it's a lullaby, it's a lullaby<br>
+                    </p>
+                    <p>
+                        I got work<br>
+                        You got work<br>
+                        But in this moment<br>
+                        Quiet first<br>
+                        I got work<br>
+                        You got work<br>
+                        But in this moment<br>
+                        Quiet first<br>
+                    </p>
+                    <p>
+                        It's a lullaby, it's a lullaby<br>
+                    </p>
+                </div>
+            </td>
+            <td style="width: 50%; vertical-align: top; justify-content: center;">
+                <div>
+                    <p>Music player</p>
+                    <audio id="audio" src="music/lulluby.mp3"></audio>
+                    <button id="playButton">Play</button>
+                </div>
+            </td>
+        </tr>
+    </table>
 
     <div id="korean" style="display: none;">
         <h2>
