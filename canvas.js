@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     var canvas = document.getElementById("paint-canvas");
     var context = canvas.getContext("2d");
     var boundings = canvas.getBoundingClientRect();
-    var brush = document.getElementById("brush").value;
+    var brush = document.getElementById("brush");
 
     var mouseX = 0;
     var mouseY = 0;
