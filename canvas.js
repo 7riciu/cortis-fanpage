@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     canvas.addEventListener("mousedown", function(event) {
         setMouseCoordinates(event);
-        isDrawing =true;
+        isDrawing = true;
 
         context.beginPath();
         context.moveTo(mouseX, mouseY);
@@ -60,4 +60,11 @@ document.addEventListener("DOMContentLoaded", () => {
         mouseX = event.clientX - boundings.left;
         mouseY = event.clientY - boundings.top;
     }
+
+    function resizeCanvas() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+    }
+    window.addEventListener("resize", resizeCanvas);
+    resizeCanvas();
 });
