@@ -46,12 +46,12 @@ body {
 
 .table-images {
     width: 25vw;
-    height: 20vh;
     text-align: center;
     vertical-align: top;
 }
 
 .start-info1 {
+    padding-top: 4vh;
     padding-left: 30vw;
     padding-right: 30vw;
     text-align: center;

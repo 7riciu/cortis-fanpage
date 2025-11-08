@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="canvas.css">
+    <script src="canvas.js"></script>
+    <title>Color Outside The Lines</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="color">
+            <button value="#FBFF00"></button>
+            <button value="#009fff"></button>
+            <button value="#000000"></button>
+            <button value="#FF0000"></button>
+            <button value="#3EFF00"></button>
+            <button value="#FFF"></button>
+        </div>
+
+        <input id="brush" type="range" value="1" min="1" max="5" step="1">
+        <button id="save">Save</button>
+        <button id="clear">Clear</button>
+        <br>
+
+        <canvas id="paint-canvas" width="400px" height="400px"></canvas>
+    </div>
+</body>
+</html>
