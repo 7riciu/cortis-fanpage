@@ -36,29 +36,36 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Piano
     Tone.start();
-    const synth = new Tone.Synth().toDestinaion;
+    const synth = new Tone.Synth().toDestination();
 
     document.addEventListener("keydown", (e) => {
         if (e.key === "A" || e.key === "a") {
             console.log("Pressed A");
+            playNote("C");
         }
         else if (e.key === "S" || e.key === "s") {
             console.log("Pressed S");
+            playNote("D");
         }
         else if (e.key === "D" || e.key === "d") {
             console.log("Pressed D");
+            playNote("E");
         }
         else if (e.key === "F" || e.key === "f") {
             console.log("Pressed F");
+            playNote("F");
         }
         else if (e.key === "G" || e.key === "g") {
             console.log("Pressed G");
+            playNote("G");
         }
         else if (e.key === "H" || e.key === "h") {
             console.log("Pressed H");
+            playNote("A");
         }
         else if (e.key === "J" || e.key === "j") {
             console.log("Pressed J");
+            playNote("B");
         }
     });
 
