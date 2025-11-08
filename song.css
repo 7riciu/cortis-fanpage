@@ -4,3 +4,19 @@ body {
     color: black;
     text-decoration: none;
 }
+
+.piano {
+    width: 100%;
+    height: 40vh;
+    padding-top: 10vh;
+}
+
+.key {
+    width: 5%;
+    height: 100%;
+    background-color: white;
+    display: inline-flex;
+    border: 1px black solid;
+    justify-content: center;
+    align-items: end;
+}
