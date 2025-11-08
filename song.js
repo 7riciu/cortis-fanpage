@@ -70,6 +70,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     function playNote(note) {
-        synth.triggerAttackRelease(`${note}4`, '8n');
+        synth.triggerAttackRelease(`${note}3`, '8n');
     }
 });
