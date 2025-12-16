@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 15px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background: red;
+    color: blue;
+    display: flex;
+    cursor: pointer;
+}
+
+.card.flipped,
+.card.matched {
+    background: white;
+    color: yellow;
+    cursor: default;
+}
