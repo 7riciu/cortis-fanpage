@@ -7,6 +7,7 @@
 body {
     width: 100vw;
     height: 100vh;
+    background-color: #f1ece6;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,22 +15,35 @@ body {
 
 .game {
     display: grid;
-    grid-template-columns: repeat(4, 12vw);
-    gap: 15px;
+    grid-template-columns: repeat(5, 8vw);
+    gap: 1vw;
 }
 
 .card {
-    width: 10vw;
     height: 15vh;
-    background: red;
-    color: blue;
+    background: #352d29;
+    background-image: url("images/cortis_logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    width: inherit;
+    aspect-ratio: 3 / 4;
+    border-radius: 1vh;
+    object-fit: contain;
+    overflow: hidden;
     display: flex;
     cursor: pointer;
 }
 
+.card-img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1vh;
+}
+
 .card.flipped,
 .card.matched {
-    background: white;
-    color: yellow;
+    background: #f1ece6;
     cursor: default;
+    justify-content: center;
 }

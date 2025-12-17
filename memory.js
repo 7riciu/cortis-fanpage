@@ -8,6 +8,16 @@ const images = [
     "images/mm_keonho1.jpg",
     "images/mm_keonho2.jpg",
     "images/mm_seongyeon1.jpg",
+    "images/mm_seongyeon2.jpg",
+    "images/mm_james1.jpg",
+    "images/mm_james2.jpg",
+    "images/mm_martin1.jpg",
+    "images/mm_martin2.jpg",
+    "images/mm_juhoon1.jpg",
+    "images/mm_juhoon2.jpg",
+    "images/mm_keonho1.jpg",
+    "images/mm_keonho2.jpg",
+    "images/mm_seongyeon1.jpg",
     "images/mm_seongyeon2.jpg"
 ];
 let firstCard = null;
