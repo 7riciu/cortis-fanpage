@@ -8,17 +8,19 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .game {
     display: grid;
-    grid-template-columns: repeat(4, 100px);
+    grid-template-columns: repeat(4, 12vw);
     gap: 15px;
 }
 
 .card {
-    width: 100px;
-    height: 100px;
+    width: 10vw;
+    height: 15vh;
     background: red;
     color: blue;
     display: flex;
