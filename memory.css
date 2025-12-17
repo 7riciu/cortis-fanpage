@@ -8,12 +8,21 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: #f1ece6;
+}
+
+.topbar {
+    width: 100vw;
+    height: 18vh;
+    background-color: #352d29;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .game {
+    height: 82vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     display: grid;
     grid-template-columns: repeat(5, 8vw);
     gap: 1vw;
