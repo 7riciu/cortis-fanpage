@@ -23,13 +23,52 @@ body {
     padding-bottom: 2vh;
 }
 
-.mp-image {
-    width: 15vw;
-    margin-top: 2vh;
+.mp-text {
+    position: relative;
 }
 
+.mp-player {
+    position: relative;
+    width: 50vw;
+    height: 35vh;
+}
+
+.mp-image {
+    position: absolute;
+    width: 15vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+@keyframes spin {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.cd {
+    position: absolute;
+    width: 11vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    animation: spin 2s linear infinite;
+    animation-play-state: paused;
+}
+
+.cd.rotating {
+    animation-play-state: running;
+}
+
+
 .mp-button {
- margin-top: 1vh;
+    position: relative;
 }
 
 .piano {

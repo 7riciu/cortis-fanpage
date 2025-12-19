@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     var canvas = document.getElementById("paint-canvas");
     var context = canvas.getContext("2d");
-    var boundings = canvas.getBoundingClientRect();
     var brush = document.getElementById("brush");
 
     var mouseX = 0;
@@ -57,13 +56,15 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     function setMouseCoordinates(event) {
-        mouseX = event.clientX - boundings.left;
-        mouseY = event.clientY - boundings.top;
+        const rect = canvas.getBoundingClientRect();
+        mouseX = event.clientX - rect.left;
+        mouseY = event.clientY - rect.top;
     }
 
     function resizeCanvas() {
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
+        const rect = canvas.getBoundingClientRect();
+        canvas.width = rect.width;
+        canvas.height = rect.height;
     }
     
     window.addEventListener("resize", resizeCanvas);

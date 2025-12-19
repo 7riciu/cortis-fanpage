@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const romanizedLyrics = document.getElementById("romanized").innerHTML;
     const englishLyrics = document.getElementById("english").innerHTML;
     var lyricsArea = document.getElementById("lyrics");
+    const cd = document.getElementById("cd");
 
     window.translateToKorean = () => {
         lyricsArea.innerHTML = koreanLyrics;
@@ -21,12 +22,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function playSong() {
         audio.play();
-        playButton.textContent = "Pause";
+        cd.classList.add("rotating");
+        playButton.textContent = "⏸️";
     }
 
     function pauseSong() {
         audio.pause();
-        playButton.textContent = "Play";
+        cd.classList.remove("rotating");
+        playButton.textContent = "▶️";
     }
 
     playButton.addEventListener("click", () => {
