@@ -75,23 +75,23 @@ canvas {
 }
 
 .color button:nth-of-type(1) {
-    background-color: #FBFF00;
+    background-color: #e09f3e;
 }
 
 .color button:nth-of-type(2) {
-    background-color: #009fff;
+    background-color: #9e2a2b;
 }
 
 .color button:nth-of-type(3) {
-    background-color: #000000;
+    background-color: #335c67;
 }
 
 .color button:nth-of-type(4) {
-    background-color: #FF0000;
+    background-color: #fff3b0;
 }
 
 .color button:nth-of-type(5) {
-    background-color: #3EFF00;
+    background-color: #000000;
 }
 
 .color button:nth-of-type(6) {
