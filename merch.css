@@ -37,3 +37,18 @@ body {
     justify-content: space-between;
     background: white;
 }
+
+.item {
+    justify-items: center;
+}
+
+.item-name {
+    font-size: medium;
+    margin-left: 1vh;
+}
+
+.item-price {
+    font-size: small;
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
